@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+
+<body>
+    <form method="GET" action="http://www.baidu.com">
+        <div>昵称：<input type="text" name="nickname" id="nickname" placeholder="请输入昵称"></div>
+        <div>手机号： <input type="number" name="phone" id="phone"></div>
+        <div>密码： <input type="password" name="password" id="password"></div>
+        <div>图像：<input type="file" name="avatar" id="avatar"> </div>
+        <div>生日：<input type="date" name="birth" id="birth"> </div>
+        <div>
+            <select name="city" id="gcity">
+                    <option value="none">请选择</option>
+                    <optgroup label="广">
+                        <option value="广东省" selected="selected">广东省</option>
+                        <option value="广西省">广西省</option>
+                    </optgroup>
+                    <optgroup label="河">
+                        <option value="河南">河南</option>
+                        <option value="河北">河北</option>
+                    </optgroup>
+                    <optgroup label="山">
+                        <option value="山东">山东</option>
+                        <option value="山西">山西</option>
+                    </optgroup>
+
+                </select>
+            <select name="city" id="city">
+                    <option value="none">请选择</option>
+                    <option value="广东省">广东省</option>
+                    <option value="广西省">广西省</option>
+                    <option value="河南">河南</option>
+                    <option value="河北">河北</option>
+                    <option value="山东">山东</option>
+                    <option value="山西">山西</option>
+                </select>
+        </div>
+        <div>
+            <input type="submit" name="submit" id="submit" value="提交">
+            <input type="reset" name="reset" id="reset">
+        </div>
+
+    </form>
+</body>
+
+</html>
