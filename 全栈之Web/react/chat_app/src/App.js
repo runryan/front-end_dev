@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './logo.svg'
 import './App.css'
+import Carousel from './Carousel'
 
 function App() {
   const text = `sjsjksks
@@ -21,6 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Carousel />
     </div>
   )
 }
