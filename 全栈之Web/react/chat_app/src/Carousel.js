@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { Button } from 'antd'
+import { Button, Pagination } from 'antd'
 
 class Carousel extends React.Component {
   render() {
@@ -8,6 +8,7 @@ class Carousel extends React.Component {
       <div>
         <Button type='default'>jaja</Button>
         <Button type='primary'>jaja</Button>
+        <Pagination total={100} defaultCurrent={5} />
       </div>
     )
   }
