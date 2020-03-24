@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import { Button } from 'antd'
 
 class Carousel extends React.Component {
   render() {
-    return <div>{this.props.content}</div>
+    return (
+      <div>
+        <Button type='default'>jaja</Button>
+        <Button type='primary'>jaja</Button>
+      </div>
+    )
   }
 }
 
