@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Document</title>
+    <style>
+      .header {
+        display: flex;
+        height: 44px;
+        flex-direction: row;
+        margin: auto;
+        width: 100%;
+        max-width: 540px;
+        min-width: 360px;
+        background-color: cornsilk;
+      }
+
+      .header div:nth-child(2) {
+        background-color: bisque;
+        width: 200px;
+        text-align: center;
+        line-height: 44px;
+      }
+
+      .header p:nth-child(3) {
+        flex: 1;
+        background-color: yellow;
+      }
+
+      .header div:nth-child(4) {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div>1</div>
+      <div>呼呼</div>
+      <p>这是段落</p>
+      <div>就安静安静</div>
+    </div>
+  </body>
+</html>

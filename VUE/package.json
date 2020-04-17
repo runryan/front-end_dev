@@ -1,0 +1,9 @@
+{
+  "name": "vue-learning",
+  "version": "0.0.1",
+  "description": "学习VUE",
+  "main": "index.js",
+  "author": "Runryan",
+  "license": "MIT",
+  "private": true
+}

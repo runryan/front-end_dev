@@ -5,8 +5,14 @@ import { HashRouter, Route, Link } from 'react-router-dom'
 import AboutUs from './AboutUs'
 import ProductCategory from './ProductCategory'
 
+const HHH = url => number => {
+  return `${url} ${number}`
+}
+
 class Home extends Component {
   render() {
+    const result = HHH('http://www.baidu.com')(1)
+    console.log(result)
     return (
       <div>
         <HashRouter>
@@ -27,7 +33,7 @@ class Home extends Component {
           <p>
             Edit <code> src/App.js </code> and save to reload.
           </p>
-          <a 
+          <a
             className='App-link'
             href='https://reactjs.org'
             target='_blank'
